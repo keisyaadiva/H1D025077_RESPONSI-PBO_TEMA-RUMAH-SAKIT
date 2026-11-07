@@ -1,16 +1,13 @@
 public class PasienUmum extends Pasien {
-    private double biayaPerHari;
 
-    public PasienUmum(String idPasien, String nama, int hariRawat, double biayaPerHari) {
+    public PasienUmum(String idPasien, String nama, int hariRawat) {
         super(idPasien, nama, hariRawat);
-        this.biayaPerHari = biayaPerHari;
     }
 
     @Override
     public void infoPasien() {
         super.infoPasien();
         System.out.println("Tipe: Pasien Umum");
-        System.out.println("Biaya/Hari: Rp" + biayaPerHari);
     }
 
     @Override

@@ -7,7 +7,7 @@ public class MainRumahSakit {
 
         System.out.println("-------------------------");
 
-        Pasien p1 = new PasienUmum("UM-01", "Andi", 4, 150000);
+        Pasien p1 = new PasienUmum("UM-01", "Andi", 4);
         p1.infoPasien();
         p1.prosesPembayaran();
 

@@ -5,6 +5,12 @@ public class PasienVIP extends Pasien implements Fasilitas, Perawatan {
     }
 
     @Override
+    public void infoPasien() {
+        super.infoPasien();
+        System.out.println("Tipe: Pasien VIP");
+    }
+
+    @Override
     public void prosesPembayaran() {
         if (getHariRawat() >= 5) System.out.println("Status: Cashback Kamar VIP!");
         else System.out.println("Status: Biaya VIP Standar");
