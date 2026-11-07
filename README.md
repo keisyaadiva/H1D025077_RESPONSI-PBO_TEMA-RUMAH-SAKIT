@@ -8,7 +8,7 @@
 ## 2. Petunjuk Compile dan Run
 1. Buka terminal atau Command Prompt di folder proyek.
 2. Kompilasi seluruh kode sumber Java: 
-   javac *.java
+   javac *.java (lalu)
    java MainRumahSakit
 
 ## 3. Luaran Program
