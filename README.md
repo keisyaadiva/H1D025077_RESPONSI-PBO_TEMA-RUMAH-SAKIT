@@ -12,4 +12,4 @@
    java MainRumahSakit
 
 ## 3. Luaran Program
-![Luaran Program] (luaran.png)
+![Luaran Program](luaran.png)
